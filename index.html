@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting Schedule - Richland & Tri-Cities</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            line-height: 1.5;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f6f8fa;
+        }
+        h1 { color: #24292e; border-bottom: 2px solid #0056b3; padding-bottom: 10px; }
+        h2 { background: #0056b3; color: white; padding: 10px; margin-top: 30px; border-radius: 4px; }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            background-color: #fff;
+            font-size: 0.95em;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #dfe2e5;
+            vertical-align: top;
+        }
+        th { background-color: #e1e4e8; font-weight: bold; }
+        tr:nth-child(even) { background-color: #f9f9f9; }
+        
+        .legend-section {
+            background: #fff;
+            padding: 20px;
+            border: 1px solid #dfe2e5;
+            margin-top: 40px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+        }
+        .legend-item { font-size: 0.85em; border-bottom: 1px solid #eee; padding: 2px 0; }
+
+        @media (max-width: 650px) {
+            table, thead, tbody, th, td, tr { display: block; }
+            thead tr { position: absolute; top: -9999px; left: -9999px; }
+            tr { border: 1px solid #ccc; margin-bottom: 15px; box-shadow: 2px 2px 5px rgba(0,0,0,0.05); }
+            td { border: none; border-bottom: 1px solid #eee; position: relative; padding-left: 35%; min-height: 30px; }
+            td:before {
+                position: absolute; top: 12px; left: 10px; width: 30%; 
+                padding-right: 10px; white-space: nowrap; font-weight: bold; color: #0056b3;
+            }
+            td:nth-of-type(1):before { content: "Time/Length"; }
+            td:nth-of-type(2):before { content: "Meeting"; }
+            td:nth-of-type(3):before { content: "Location"; }
+            td:nth-of-type(4):before { content: "Notes"; }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Area Meeting Schedule</h1>
+    <p><em>Last updated: May 2026</em></p>
+
+    <!-- MONDAY -->
+    <h2>Monday</h2>
+    <table>
+        <thead><tr><th>Time</th><th>Meeting</th><th>Location</th><th>Notes</th></tr></thead>
+        <tbody>
+            <tr><td>Noon (1.5hr)</td><td>Midday Miracles</td><td>1621 W. 27th Ave, Kennewick, WA</td><td>(O,JT,To,SPAD) Lit Study</td></tr>
+            <tr><td>Noon (1hr)</td><td>Serenity Seekerz</td><td>191 E Gladys Ave., Hermiston, OR</td><td>(O,CW)</td></tr>
+            <tr><td>Noon (1.25hr)</td><td>Virtual Midday Miracles</td><td>ZOOM ID: 4223365954</td><td>(VM) No PW</td></tr>
+            <tr><td>5:15PM (1hr)</td><td>Sicker Than Most</td><td>933 Thayer Drive, Richland, WA</td><td>Richland Church of Christ</td></tr>
+            <tr><td>6:00PM (1hr)</td><td>Men's Night Out</td><td>2425 W Albany Ave, Kennewick, WA</td><td>(O,BT,M,BK)</td></tr>
+            <tr><td>6:30PM (1hr)</td><td>Freedom to Choose</td><td>711 S Auburn Suite B, Kennewick, WA</td><td>(O,JT,LS)</td></tr>
+            <tr><td>7:00PM (1hr)</td><td>Virtual Text Meeting</td><td>ZOOM ID: 5786365647</td><td>PW: 815017 (VM)</td></tr>
+            <tr><td>7:00PM (1hr)</td><td>We Do Recovery</td><td>775 W Highland Ave, Hermiston, OR</td><td>(O,JT) Rear Entrance</td></tr>
+        </tbody>
+    </table>
+
+    <!-- TUESDAY -->
+    <h2>Tuesday</h2>
+    <table>
+        <thead><tr><th>Time</th><th>Meeting</th><th>Location</th><th>Notes</th></tr></thead>
+        <tbody>
+            <tr><td>Noon (1.5hr)</td><td>Midday Miracles</td><td>1621 W 27th Ave, Kennewick, WA</td><td>(O,JT,To,SPAD) Lit Study</td></tr>
+            <tr><td>Noon (1hr)</td><td>Serenity Seekerz</td><td>191 E Gladys Ave., Hermiston, OR</td><td>(O,CW)</td></tr>
+            <tr><td>Noon (1.25hr)</td><td>Virtual Midday Miracles</td><td>ZOOM ID: 4223365954</td><td>(VM) No PW</td></tr>
+            <tr><td>5:20PM (1.5hr)</td><td>Women's Virtual Meeting</td><td>ZOOM ID: 7558281807</td><td>PW: 505118 (W,VM,LS)</td></tr>
+            <tr><td>6:00PM (1hr)</td><td>Step Sisters</td><td>1107 Wright Avenue, Richland, WA</td><td>(O,W,WC) Rear Entrance</td></tr>
+            <tr><td>6:30PM (1hr)</td><td>Freedom to Choose</td><td>711 S Auburn Suite B, Kennewick, WA</td><td>(O,JT)</td></tr>
+            <tr><td>7:00PM (1hr)</td><td>Our Primary Purpose</td><td>109 E. Broadway, Goldendale, WA</td><td>(O,JT,BK)</td></tr>
+            <tr><td>7:00PM (1hr)</td><td>Tuesday Night New Beginnings</td><td>17 S Union St, Kennewick, WA (Hybrid)</td><td>Zoom ID: 5786365647 PW: 815017</td></tr>
+            <tr><td>7:00PM (1hr)</td><td>We Do Recovery</td><td>775 W Highland Ave, Hermiston, OR</td><td>(C,JT) Rear Entrance</td></tr>
+            <tr><td>7:00PM (1hr)</td><td>Welcome Home</td><td>933 Thayer Ave, Richland, WA</td><td>Richland Church of Christ</td></tr>
+        </tbody>
+    </table>
+
+    <!-- WEDNESDAY -->
+    <h2>Wednesday</h2>
+    <table>
+        <thead><tr><th>Time</th><th>Meeting</th><th>Location</th><th>Notes</th></tr></thead>
+        <tbody>
+            <tr><td>Noon (1.5hr)</td><td>Midday Miracles</td><td>1621 W. 27th Ave, Kennewick, WA</td><td>(O,JT,To,SPAD) Lit Study</td></tr>
+            <tr><td>Noon (1hr)</td><td>Serenity Seekerz</td><td>191 E Gladys Ave., Hermiston, OR</td><td>(O,CW,CC)</td></tr>
+            <tr><td>Noon (1.25hr)</td><td>Virtual Midday Miracles</td><td>ZOOM ID: 4223365954</td><td>(VM) No PW</td></tr>
+            <tr><td>6:00PM (1hr)</td><td>Rush Hour</td><td>1322 Kimball Street, Richland, WA</td><td>(O,SD,St)</td></tr>
+            <tr><td>6:00PM (1hr)</td><td>Serenity at Six</td><td>418 N Yelm Street, Kennewick, WA</td><td>(C,JT,WC,GP)</td></tr>
+            <tr><td>6:30PM (1hr)</td><td>Freedom to Choose</td><td>711 S Auburn Suite B, Kennewick, WA</td><td>(O,JT,LS)</td></tr>
+            <tr><td>7:00PM (1hr)</td><td>We Do Recovery</td><td>775 W Highland Ave, Hermiston, OR</td><td>(O,JT) Rear Entrance</td></tr>
+            <tr><td>7:30PM (1.5hr)</td><td>Wednesday Night Newcomers</td><td>17 S Union St, Kennewick, WA (Hybrid)</td><td>Zoom ID: 5786365647 PW: 815017</td></tr>
+        </tbody>
+    </table>
+
+    <!-- THURSDAY -->
+    <h2>Thursday</h2>
+    <table>
+        <thead><tr><th>Time</th><th>Meeting</th><th>Location</th><th>Notes</th></tr></thead>
+        <tbody>
+            <tr><td>Noon (1.5hr)</td><td>Midday Miracles</td><td>1621 W. 27th Ave, Kennewick, WA</td><td>(O,JT,To,SPAD) Lit Study</td></tr>
+            <tr><td>Noon (1hr)</td><td>Serenity Seekerz</td><td>191 E Gladys Ave., Hermiston, OR</td><td>(O,CW,CC)</td></tr>
+            <tr><td>Noon (1.25hr)</td><td>Virtual Midday Miracles</td><td>ZOOM ID: 4223365954</td><td>(VM) No PW</td></tr>
+            <tr><td>6:30PM (1hr)</td><td>Freedom to Choose</td><td>711 S Auburn Suite B, Kennewick, WA</td><td>(O,JT)</td></tr>
+            <tr><td>7:00PM (1hr)</td><td>Bent On Recovery</td><td>906 9th Street, Benton City, WA</td><td>(O,D,WC,LS)</td></tr>
+            <tr><td>7:00PM (1.5hr)</td><td>Courage to Change</td><td>418 N Yelm Street, Kennewick, WA</td><td>(O,HY) Look for NA sign</td></tr>
+            <tr><td>7:00PM (1hr)</td><td>Our Primary Purpose</td><td>109 E. Broadway Street, Goldendale, WA</td><td>(O,BK)</td></tr>
+            <tr><td>7:00PM (1hr)</td><td>We Do Recovery</td><td>775 W Highland Ave, Hermiston, OR</td><td>(C,BT) Rear Entrance</td></tr>
+            <tr><td>7:00PM (1hr)</td><td>Welcome Home</td><td>933 Thayer Ave, Richland, WA</td><td>Richland Church of Christ</td></tr>
+        </tbody>
+    </table>
+
+    <!-- FRIDAY -->
+    <h2>Friday</h2>
+    <table>
+        <thead><tr><th>Time</th><th>Meeting</th><th>Location</th><th>Notes</th></tr></thead>
+        <tbody>
+            <tr><td>Noon (1.5hr)</td><td>Midday Miracles</td><td>1621 W. 27th Avenue, Kennewick, WA</td><td>(O,JT,To,SPAD)</td></tr>
+            <tr><td>Noon (1.25hr)</td><td>Virtual Midday Miracles</td><td>ZOOM ID: 4223365954</td><td>(VM) No PW</td></tr>
+            <tr><td>Noon (1hr)</td><td>We Do Recovery</td><td>775 W Highland Ave, Hermiston, OR</td><td>(O,JT) Rear Entrance</td></tr>
+            <tr><td>3:00PM (1hr)</td><td>Dope Free in the Tri-Cities</td><td>925 S. Auburn Street, Kennewick, WA</td><td>Recovery Cafe</td></tr>
+            <tr><td>6:30PM (1hr)</td><td>Freedom to Choose</td><td>711 S Auburn Suite B, Kennewick, WA</td><td>(O,JT,LS)</td></tr>
+            <tr><td>6:30PM (1hr)</td><td>We’re Glad You’re Here</td><td>4012 W Court St., Pasco, WA</td><td>(O,WC)</td></tr>
+            <tr><td>7:00PM (1.5hr)</td><td>Friday Night Life Boat</td><td>7105 W Tenth Ave, Kennewick, WA</td><td>(O,D,MR) **Hybrid**</td></tr>
+            <tr><td>7:00PM (1.5hr)</td><td>We Do Recovery</td><td>775 W Highland Ave, Hermiston, OR</td><td>(O) Rear Entrance</td></tr>
+            <tr><td>10:00PM (1hr)</td><td>Just For Tonight</td><td>418 N Yelm St, Kennewick, WA</td><td>(O,WC,BK)</td></tr>
+        </tbody>
+    </table>
+
+    <!-- SATURDAY -->
+    <h2>Saturday</h2>
+    <table>
+        <thead><tr><th>Time</th><th>Meeting</th><th>Location</th><th>Notes</th></tr></thead>
+        <tbody>
+            <tr><td>10:00AM (1hr)</td><td>When It Works</td><td>2425 W Albany Ave, Kennewick, WA</td><td>(O,B,BT,JT,WC,CW)</td></tr>
+            <tr><td>Noon (1.25hr)</td><td>Virtual Midday Miracles</td><td>ZOOM ID: 4223365954</td><td>(VM) No PW</td></tr>
+            <tr><td>Noon (1hr)</td><td>We Do Recovery</td><td>775 W Highland Ave, Hermiston, OR</td><td>(O,JT) Rear Entrance</td></tr>
+            <tr><td>6:00PM (1hr)</td><td>Una Nueva Vida</td><td>925 S Auburn Street, Kennewick, WA</td><td>(O,ES) Spanish Speaking</td></tr>
+            <tr><td>6:30PM (1hr)</td><td>Freedom to Choose</td><td>711 S Auburn Suite B, Kennewick, WA</td><td>(O,JT)</td></tr>
+            <tr><td>7:00PM (1hr)</td><td>Free Spirit</td><td>505 McMurray, Richland, WA</td><td>(O,CL,WC,MR)</td></tr>
+            <tr><td>7:00PM (1.5hr)</td><td>Saturday Night Live</td><td>2 S Dayton St, Kennewick, WA</td><td>(O,D,WC,HY)</td></tr>
+            <tr><td>7:00PM (1hr)</td><td>We Do Recovery</td><td>775 W Highland Ave, Hermiston, OR</td><td>(O,JT) Rear Entrance</td></tr>
+            <tr><td>10:00PM (1hr)</td><td>Just For Tonight</td><td>418 N Yelm St, Kennewick, WA</td><td>(O,WC,BK)</td></tr>
+        </tbody>
+    </table>
+
+    <!-- SUNDAY -->
+    <h2>Sunday</h2>
+    <table>
+        <thead><tr><th>Time</th><th>Meeting</th><th>Location</th><th>Notes</th></tr></thead>
+        <tbody>
+            <tr><td>10:00AM (1.5hr)</td><td>Sunday Serenity Station</td><td>525 W. Marie Street, Pasco, WA</td><td>(O,JT) Check basement access</td></tr>
+            <tr><td>3:00PM (1hr)</td><td>Veterans of Worth</td><td>1020 S 7th Ave, Pasco, WA</td><td>(JT,To) VETERANS ONLY</td></tr>
+            <tr><td>5:00PM (1hr)</td><td>Our Primary Purpose</td><td>109 E. Broadway, Goldendale, WA</td><td>(O,JT,BK)</td></tr>
+            <tr><td>5:30PM (1hr)</td><td>Sunday Survivors</td><td>1524 W Marie St., Pasco, WA</td><td>(O,D,WC) Entrance by playground</td></tr>
+            <tr><td>6:30PM (1hr)</td><td>Freedom to Choose</td><td>711 S Auburn Suite B, Kennewick, WA</td><td>(O,JT)</td></tr>
+            <tr><td>7:00PM (1hr)</td><td>Sunday Second Chance</td><td>Virtual / ZOOM ID: 5786365647</td><td>PW: 815017 (VM)</td></tr>
+            <tr><td>7:00PM (1hr)</td><td>We Do Recovery</td><td>775 W Highland Ave, Hermiston, OR</td><td>(O,JT) Rear Entrance</td></tr>
+        </tbody>
+    </table>
+
+    <h3>LEGEND</h3>
+    <div class="legend-section">
+        <div class="legend-item"><strong>B:</strong> Beginners</div>
+        <div class="legend-item"><strong>BT:</strong> Basic Text</div>
+        <div class="legend-item"><strong>C:</strong> Closed</div>
+        <div class="legend-item"><strong>CL:</strong> Candlelight</div>
+        <div class="legend-item"><strong>D:</strong> Discussion</div>
+        <div class="legend-item"><strong>JT:</strong> Just for Today</div>
+        <div class="legend-item"><strong>M:</strong> Men</div>
+        <div class="legend-item"><strong>O:</strong> Open</div>
+        <div class="legend-item"><strong>SD:</strong> Speaker/Discussion</div>
+        <div class="legend-item"><strong>St:</strong> Step</div>
+        <div class="legend-item"><strong>To:</strong> Topic</div>
+        <div class="legend-item"><strong>W:</strong> Women</div>
+        <div class="legend-item"><strong>WC:</strong> Wheelchair Access</div>
+        <div class="legend-item"><strong>BK:</strong> Book Study</div>
+        <div class="legend-item"><strong>CW:</strong> Children Welcome</div>
+        <div class="legend-item"><strong>GP:</strong> Guiding Principles</div>
+        <div class="legend-item"><strong>VM:</strong> Virtual Meeting</div>
+        <div class="legend-item"><strong>HY:</strong> Hybrid Meeting</div>
+        <div class="legend-item"><strong>CC:</strong> Child Care</div>
+        <div class="legend-item"><strong>LS:</strong> Literature Study</div>
+        <div class="legend-item"><strong>MR:</strong> Masks Required</div>
+        <div class="legend-item"><strong>SPAD:</strong> Spiritual Principle a Day</div>
+        <div class="legend-item"><strong>ES:</strong> Español</div>
+    </div>
+
+</body>
+</html>
